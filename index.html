@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta  name="viewport" content="width=device-width, initial-scale=1.0" />
+
+        <!-- Favicon code -->
+        <link rel="apple-touch-icon" sizes="180x180" href="favicon_io/apple-touch-icon.png">
+        <link rel="icon" type="image/png" sizes="32x32" href="favicon_io/favicon-32x32.png">
+        <link rel="icon" type="image/png" sizes="16x16" href="favicon_io/favicon-16x16.png">
+        <link rel="manifest" href="favicon_io/site.webmanifest">
+
+        <link rel="stylesheet" type="text/css" href="fireworks.css" />
+        
+        <!-- defer loads html first then JS -->
+        <script defer type="text/javascript" src="fireworks.js"></script>
+       <!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.js"></script>-->
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+        
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+    <!-- Latest compiled JavaScript -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+        <script>
+            function PlayMusic() {
+            
+              var play=document.getElementById("music");
+              play.play();
+            }
+            $(document).ready(function(){
+              setTimeout(PlayMusic,3000);
+            })
+            
+            </script>
+
+        <title>Special Birthday</title>
+    </head>
+
+    <body>
+
+        <canvas id="canvas"></canvas>
+        
+        <div class="portfolio container-md-fluid container d-flex align-items-center justify-content-center">
+           <!---- <a href="https://dany-cervantes-portfolio.pages.dev/" target="_blank">
+                Visit My Portfolio
+            </a>-->
+			<h4 class="glow container-md-fluid container d-flex align-items-center justify-content-center">Happy Birthday To You Almina</h4>
+            <div class="clear"></div>
+            <div id="container1" class="container-md-fluid container d-flex align-items-center justify-content-center" >
+                <div class="book">
+                 <!-- <p>Text Here</p> -->
+                  <img src="img/Pic1.png" width ="100%" >
+                <div class="cover">
+                <img src="img/coverPic.jpg" width ="100%">
+                   <!-- <p>Text Here</p> -->
+               </div>
+                </div>
+                
+              </div>
+              
+              
+          </div>
+          <!--<span class="glow">
+            <h3>Happy Birthday To You Almina</h3>
+          </span>-->
+          <span class="musicCont">
+            <!--<h3 class="glow">Happy Birthday To You Almina</h3>-->
+            <audio controls id="music">
+
+                <source src="songs/birthdaySong.mp3" type="audio/mpeg">
+              </audio> 
+          </span>
+         
+          
+    </body>
+</html>
