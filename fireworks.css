@@ -23,6 +23,7 @@ body {
   
 }
 
+
 @-webkit-keyframes glow {
   from {
     text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px #e60073, 0 0 40px #e60073, 0 0 50px #e60073, 0 0 60px #e60073, 0 0 70px #e60073;
@@ -37,7 +38,7 @@ body {
   float:left;
   left:10%;
   height: 30px;
-  margin-top: 215px;
+  margin-top: 325px;
 }
 
 
@@ -110,7 +111,7 @@ canvas {
     border-radius: 10px;
     width: 410px;
     
-    height: 300px;
+    height: 600px;
     
     /*background-image: url(bdycard.png);*/
     background-image: url(img/Pic1.png);
@@ -140,7 +141,7 @@ canvas {
     position: absolute;
     background-color: lightgray;
     background-color: #4158D0;
-    background-image:  url(img/coverPic.jpg);     /*url(bdycard1.png);*/
+   /* background-image:  url(img/coverPic.jpg); */    /*url(bdycard1.png);*/
     background-size: cover;
     background-position: center;
     width: 100%;
